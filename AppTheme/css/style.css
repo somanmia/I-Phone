@@ -1,0 +1,213 @@
+body{
+ padding:0px;
+ margin:0px;
+ font-family:sans-serif;
+ line-height:1.5em;
+ font-size:17px;
+
+}
+img{
+ width:100%;
+
+}
+
+.container{
+margin:auto;
+}
+.primary-text{
+  color:#56a79a;
+}
+/* Header */
+.main_header{
+
+ border-bottom:1px solid #56a79a;
+
+}
+/* NavBar*/
+#nav-bar{
+   text-transform: uppercase;
+}
+#nav-bar li{
+ display:inline-block;
+ list-style-type:none;
+  padding-right:20px;
+}
+#nav-bar li a{
+  text-decoration:none;
+  color:#888;
+}
+#nav-bar li.current a, #nav-bar a:hover{
+ color:#56a79a;
+ border-bottom:3px solid #56a79a;
+ padding-bottom:3px;
+}
+#showcase{
+  background:url('../images/showcase.jpg');
+  background-size:cover;
+  background-position: center;
+ background-repeat: no-repeat;
+ margin-bottom:60px;
+}
+#showcase .row{
+  height:550px;
+}
+#showcase h1{
+  font-size:50px;
+  margin:0;
+  padding-bottom:20px;
+
+}
+#showcase p{
+  color:#ccc;
+  margin:0;
+
+}
+
+.showcase-content{
+  background:#333;
+  padding:40px;
+  color:#fff;
+  opacity:0.9;
+  border-radius:90px;
+}
+/* Fetures */
+#fetures h1{
+  margin:0;
+  font-size:35px;
+  padding-bottom:15px;
+
+}
+#fetures p{
+  margin:0;
+  color:#888;
+  margin-bottom:40px;
+}
+
+#fetures .fa{
+  color:#56a79a;
+  font-size:60px;
+}
+/* Iphone description */
+#info{  background:url('../images/info.jpg') no-repeat;
+background-size:cover;
+background-position: left;
+}
+#info h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:20px;
+
+}
+#info ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+#info ul li{
+  line-height: 2em;
+  font-size: 20px;
+
+}
+/* Company */
+#company{
+  background:#333;
+  color:#fff;
+  padding:10px 0px;
+}
+#company h4{
+  margin:0;
+  text-transform: uppercase;
+}
+#company ul{
+  padding:0;
+  margin:0;
+   line-height: 2em;
+  list-style: none;
+}
+#company input[type="email"]{
+  padding:5px;
+
+}
+#company button{
+  background:#833;
+  padding:8px;
+  color:#56a79a;
+  border:0;
+}
+/* Main Footer  */
+#main-footer{
+  background:#56a79a;
+  color:#fff;
+}
+/* Services */
+#page{
+  margin-bottom:40px;
+}
+.services-us ul li{
+  list-style: none;
+  padding:10px;
+
+}
+.services-us ul li:nth-child(odd){
+  background:#333;
+  color:#fff;
+}
+.services-us ul li:nth-child(even){
+  background:#56a79a;
+  color:#fff;
+}
+/* Contact us */
+.contact-us form{
+  background:#333;
+  padding:20px;
+  color:#fff;
+}
+.contact-us form input[type="text"]{
+  width:50%;
+  margin-bottom:10px;
+  height:30px;
+}
+.contact-us form input[type="email"]{
+  width:50%;
+  margin-bottom:10px;
+  height:30px;
+}
+.contact-us form textarea{
+  width:50%;
+  height:100px;
+}
+.contact-us form button{
+  width:50%;
+  padding:10px 0px;
+  background:#222;
+  color:#fff;
+  border:0px;
+  cursor: pointer;
+}
+.contact-us form label{
+    text-transform: uppercase;
+}
+/* Responsive */
+@media(max-width:800px){
+   #showcase h1{
+     font-size:30px;
+   }
+}
+@media(max-width:500px){
+     .showcase-content{
+       padding:40px 20px;
+     }
+}
+@media(max-width:778px){
+#responsive{
+   margin-bottom:30px;
+   border-bottom:3px solid #56a79a;
+   padding-left:100px;
+   padding-right:30px;
+}
+}
+@media (max-width:444px) {
+    #showcase h1{
+      font-size:20px;
+    }
+}
